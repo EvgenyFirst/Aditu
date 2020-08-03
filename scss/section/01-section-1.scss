@@ -15,7 +15,9 @@
 }
 
 .section-1__block-1-p {
-    margin-top: 21px;
+    position: relative;
+    top: 8px;
+
     margin-left: 23px;
     margin-bottom: 18px;
 
@@ -23,6 +25,8 @@
     font-family: "Lobster", Arial, sans-serif;
     color: rgb( 60, 195, 181 );
     line-height: 0.388;
+
+    text-decoration: none;
 }
 
 .section-1__block-1-form {
@@ -88,7 +92,7 @@
 }
 
 .section-1__block-2 {
-    width: 100%;
+    min-width: 100%;
     min-height: 37px;
 
     background-color: #4ccfc1;
@@ -104,6 +108,8 @@
     justify-content: space-between;
     list-style: none;
 
+    min-height: 39px;
+
     background-color: #4ccfc1;
     
     width: 1024px;
@@ -113,14 +119,21 @@
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 .section-1__block-2-link {
+    display: flex;
+    align-items: center;
     &::after {
         content: "|";
 
         position: relative;
         left: 14px;
+    }
+
+    &:hover {
+        cursor: default;
     }
 }
 
@@ -132,6 +145,16 @@
     font-family: "Bebas Neue", Arial, sans-serif;
     color: rgb( 255, 255, 255 );
     line-height: 0.905;
+
+    p {
+        margin: 0;
+        
+        &:hover {
+            color: rgb(107, 231, 225);
+            cursor: pointer;
+            text-shadow: black 0 0 7px;
+        }
+    }
 }
 
 /* --------------------------------------------- */

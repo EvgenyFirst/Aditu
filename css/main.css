@@ -22,6 +22,7 @@
 /* Настройки */
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -76,13 +77,15 @@ body {
 }
 
 .section-1__block-1-p {
-  margin-top: 21px;
+  position: relative;
+  top: 8px;
   margin-left: 23px;
   margin-bottom: 18px;
   font-size: 49px;
   font-family: "Lobster", Arial, sans-serif;
   color: #3cc3b5;
   line-height: 0.388;
+  text-decoration: none;
 }
 
 .section-1__block-1-form {
@@ -138,7 +141,7 @@ body {
 }
 
 .section-1__block-2 {
-  width: 100%;
+  min-width: 100%;
   min-height: 37px;
   background-color: #4ccfc1;
   box-shadow: 0.5px 0.866px 3px 0px black;
@@ -151,6 +154,7 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  min-height: 39px;
   background-color: #4ccfc1;
   width: 1024px;
   margin: 0 auto;
@@ -159,10 +163,17 @@ body {
   padding-right: 20px;
 }
 
+.section-1__block-2-link {
+  display: flex;
+  align-items: center;
+}
 .section-1__block-2-link::after {
   content: "|";
   position: relative;
   left: 14px;
+}
+.section-1__block-2-link:hover {
+  cursor: default;
 }
 
 .section-1__block-2-link-add {
@@ -172,6 +183,14 @@ body {
   font-family: "Bebas Neue", Arial, sans-serif;
   color: white;
   line-height: 0.905;
+}
+.section-1__block-2-link-add p {
+  margin: 0;
+}
+.section-1__block-2-link-add p:hover {
+  color: #6be7e1;
+  cursor: pointer;
+  text-shadow: black 0 0 7px;
 }
 
 /* --------------------------------------------- */
