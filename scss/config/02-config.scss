@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Настройки */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin-top: -14px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    padding: 0;
+    
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 13px;
+    font-weight: 400;
+/*
+    background-image: url("../img/bg-sites/nerds-index.jpg");
+    background-image: url("../img/bg-sites/nerds-index-width-slide-2.png");
+    background-image: url("../img/bg-sites/nerds-index-width-slide-3.png");
+    background-image: url("../img/bg-sites/nerds-catalog.jpg");
+    background-image: url("../img/bg-sites/nerds-index-subs.png");
+    background-image: url("../img/bg-sites/nerds-catalog-subs.png");
+
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+*/
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #3fc8b1;
+}
