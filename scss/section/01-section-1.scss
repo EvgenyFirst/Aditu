@@ -3,5 +3,136 @@
 /* Section */
 /* --------------------------------------------- */
 
+.section-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1__block-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1__block-1-p {
+    margin-top: 21px;
+    margin-left: 23px;
+    margin-bottom: 18px;
+
+    font-size: 49px;
+    font-family: "Lobster", Arial, sans-serif;
+    color: rgb( 60, 195, 181 );
+    line-height: 0.388;
+}
+
+.section-1__block-1-form {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.section-1__block-1-input {
+    width: 446px;
+    min-height: 33px;
+
+    border: 1px solid #e1e1e1;
+}
+
+.section-1__block-1-form-img {
+    margin-top: -6px;
+
+    position: relative;
+    top: 6px;
+    right: 34px;
+
+    width: 22px;
+    min-height: 22px;
+
+    background-image: url("../img/find.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    border: transparent;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.section-1__block-1-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 108px;
+    margin-right: 21px;
+}
+
+.section-1__block-1-img {
+    width: 41px;
+    min-height: 37px;
+
+    background-image: url("../img/cart.png");
+    background-repeat: no-repeat;
+}
+
+.section-1__block-1-price {
+    position: relative;
+    top: 5px;
+
+    font-size: 33px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    color: rgb( 161, 161, 161 );
+    line-height: 0.576;
+}
+
+.section-1__block-2 {
+    width: 100%;
+    min-height: 37px;
+
+    background-color: #4ccfc1;
+    box-shadow: 0.5px 0.866px 3px 0px rgb( 0, 0, 0 );
+
+    position: absolute;
+    top: 74px;
+    left: 0;
+}
+
+.section-1__block-2-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    background-color: #4ccfc1;
+    
+    width: 1024px;
+
+    margin: 0 auto;
+
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-1__block-2-link {
+    &::after {
+        content: "|";
+
+        position: relative;
+        left: 14px;
+    }
+}
+
+.section-1__block-2-link-add {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 21px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    color: rgb( 255, 255, 255 );
+    line-height: 0.905;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
