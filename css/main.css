@@ -19,7 +19,10 @@
   /* Путь к файлу со шрифтом */
 }
 /* ------------------------------------------------------------ */
-/* Настройки */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Config */
+/* --------------------------------------------- */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -61,6 +64,8 @@ body {
   border: 1px solid black;
 }
 
+/* --------------------------------------------- */
+/* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* Section */
@@ -162,6 +167,9 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+.section-1__block-2-links li {
+  cursor: default;
+}
 
 .section-1__block-2-link {
   display: flex;
@@ -191,6 +199,7 @@ body {
   color: #6be7e1;
   cursor: pointer;
   text-shadow: black 0 0 7px;
+  transition: 0.5s;
 }
 
 /* --------------------------------------------- */
@@ -199,12 +208,272 @@ body {
 /* --------------------------------------------- */
 /* Section */
 /* --------------------------------------------- */
+.section-2 {
+  margin-top: 45px;
+  background-color: #3ec0b9;
+  position: inherit;
+}
+
+.section-2__container {
+  background-color: #3ec0b9;
+  min-width: 100%;
+  min-height: 445px;
+  position: absolute;
+  top: 115px;
+  left: 0;
+}
+
+.section-2__container-slider {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-2__pic {
+  width: 279px;
+  min-height: 325px;
+  margin-top: 66px;
+  margin-left: 87px;
+  background-image: url("../img/t-shirt-slider.png");
+  background-repeat: no-repeat;
+}
+
+.section-2__info-txt {
+  width: 401px;
+  margin-top: 80px;
+  margin-right: 165px;
+}
+
+.section-2__header {
+  margin-top: 0;
+  margin-bottom: 23px;
+  font-size: 61px;
+  font-family: "Bebas Neue", Arial, sans-serif;
+  color: white;
+  line-height: 0.885;
+  font-weight: 400;
+}
+
+.section-2__info {
+  margin-top: 0;
+  margin-bottom: 36px;
+  font-size: 17px;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: white;
+  line-height: 1.647;
+}
+
+.section-2__link {
+  margin: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 10%;
+  width: 85px;
+  font-size: 27px;
+  font-family: "Bebas Neue", Arial, sans-serif;
+  color: white;
+  line-height: 0.704;
+}
+.section-2__link:hover {
+  color: #6be7e1;
+  text-shadow: black 0 0 7px;
+  transition: 0.5s;
+}
+
+.section-2__options {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.section-2__options li {
+  padding-top: 59px;
+  padding-right: 10px;
+  padding-bottom: 0;
+}
+.section-2__options li:last-child {
+  padding-right: 0;
+}
+
+.section-2__option {
+  color: white;
+  font-size: 34px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.section-2__option:hover {
+  cursor: pointer;
+  color: #7fdad0;
+  transition: 0.5s;
+}
+
+.section-2__option-active {
+  color: #7fdad0;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* Section */
 /* --------------------------------------------- */
+.section-3 {
+  margin-top: 512px;
+  box-shadow: 1px 1.732px 3px 0px black;
+}
+
+.section-3__container-main {
+  background-color: white;
+  min-width: 100%;
+  min-height: 151px;
+  position: absolute;
+  top: 561px;
+  left: 0;
+  box-shadow: 1px 1.732px 3px 0px black;
+}
+
+.section-3__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 1024px;
+  min-height: 191px;
+}
+
+.section-3__arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-3__arrow-left {
+  width: 29px;
+  min-height: 88px;
+  position: absolute;
+  top: 54px;
+  left: 327px;
+  background-image: url("../img/arrow-left.png");
+  background-repeat: no-repeat;
+}
+.section-3__arrow-left:hover {
+  cursor: pointer;
+}
+
+.section-3__arrow-right {
+  width: 31px;
+  min-height: 88px;
+  position: absolute;
+  top: 54px;
+  left: 1535px;
+  background-image: url("../img/arrow-right.png");
+  background-repeat: no-repeat;
+}
+.section-3__arrow-right:hover {
+  cursor: pointer;
+}
+
+.section-3__flex {
+  display: flex;
+}
+.section-3__flex:first-child {
+  width: 344.5px;
+  padding-top: 23px;
+  border-right: 0.5px solid black;
+}
+.section-3__flex:first-child span {
+  width: 217px;
+  min-height: 151px;
+  background-image: url("../img/shoes.png");
+  background-repeat: no-repeat;
+}
+.section-3__flex:first-child div {
+  position: relative;
+  left: -17px;
+}
+.section-3__flex:nth-child(2) {
+  width: 341px;
+  padding-top: 25px;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
+}
+.section-3__flex:nth-child(2) span {
+  margin-top: 2px;
+  margin-left: 15px;
+  width: 132px;
+  min-height: 132px;
+  background-image: url("../img/t-shirt-grey.png");
+  background-repeat: no-repeat;
+}
+.section-3__flex:nth-child(2) div {
+  position: relative;
+  top: 0px;
+  left: 52px;
+}
+.section-3__flex:nth-child(3) {
+  width: 337.5px;
+  padding-top: 25px;
+  border-left: 0.5px solid black;
+}
+.section-3__flex:nth-child(3) span {
+  margin-top: 7px;
+  margin-left: 46px;
+  width: 66px;
+  min-height: 119px;
+  background-image: url("../img/breeches-products.png");
+  background-repeat: no-repeat;
+}
+.section-3__flex:nth-child(3) div {
+  position: relative;
+  left: 79px;
+}
+
+.section-3__flex-header {
+  font-size: 27px;
+  font-family: "Bebas Neue", Arial, sans-serif;
+  color: #afafaf;
+  line-height: 0.926;
+  font-weight: 400;
+}
+.section-3__flex-header:first-child {
+  margin-top: 30px;
+  margin-bottom: 23px;
+}
+.section-3__flex-header:nth-child(2) {
+  margin-top: 30px;
+  margin-bottom: 23px;
+}
+.section-3__flex-header:nth-child(3) {
+  margin-top: 30px;
+  margin-bottom: 23px;
+}
+
+.section-3__flex-link {
+  margin: 0;
+  padding-top: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-radius: 10%;
+  width: 85px;
+  font-size: 19px;
+  font-family: "Bebas Neue", Arial, sans-serif;
+  color: white;
+  line-height: 1;
+  background-color: #3cc395;
+}
+.section-3__flex-link:hover {
+  color: #6be7e1;
+  text-shadow: black 0 0 7px;
+  transition: 0.5s;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */

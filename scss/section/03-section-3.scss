@@ -3,5 +3,197 @@
 /* Section */
 /* --------------------------------------------- */
 
+.section-3 {
+    margin-top: 512px;
+    box-shadow: 1px 1.732px 3px 0px rgb(0, 0, 0);
+}
+
+.section-3__container-main {
+    background-color: white;
+    min-width: 100%;
+    min-height: 151px;
+
+    position: absolute;
+    top: 561px;
+    left: 0;
+
+    box-shadow: 1px 1.732px 3px 0px rgb(0, 0, 0);
+}
+
+.section-3__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 0 auto;
+
+    width: 1024px;
+    min-height: 191px;
+}
+
+.section-3__arrows {
+    // position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3__arrow-left {
+    width: 29px;
+    min-height: 88px;
+
+    position: absolute;
+    top: 54px;
+    left: 327px;
+
+    background-image: url("../img/arrow-left.png");
+    background-repeat: no-repeat;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.section-3__arrow-right {
+    width: 31px;
+    min-height: 88px;
+
+    position: absolute;
+    top: 54px;
+    left: 1535px;
+
+    background-image: url("../img/arrow-right.png");
+    background-repeat: no-repeat;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.section-3__flex {
+    display: flex;
+
+    &:first-child {
+        width: 344.5px;
+
+        padding-top: 23px;
+
+        border-right: 0.5px solid black;
+
+        span {
+            width: 217px;
+            min-height: 151px;
+
+            background-image: url("../img/shoes.png");
+            background-repeat: no-repeat;
+        }
+
+        div {
+            position: relative;
+            left: -17px;
+        }
+    }
+
+    &:nth-child(2) {
+        width: 341px;
+
+        padding-top: 25px;
+
+        border-left: 0.5px solid black;
+        border-right: 0.5px solid black;
+
+        span {
+            margin-top: 2px;
+            margin-left: 15px;
+
+            width: 132px;
+            min-height: 132px;
+
+            background-image: url("../img/t-shirt-grey.png");
+            background-repeat: no-repeat;
+        }
+
+        div {
+            position: relative;
+            top: 0px;
+            left: 52px;
+        }
+    }
+
+    &:nth-child(3) {
+        width: 337.5px;
+
+        padding-top: 25px;
+
+        border-left: 0.5px solid black;
+
+        span {
+            margin-top: 7px;
+            margin-left: 46px;
+
+            width: 66px;
+            min-height: 119px;
+
+            background-image: url("../img/breeches-products.png");
+            background-repeat: no-repeat;
+        }
+
+        div {
+            position: relative;
+            left: 79px;
+        }
+    }
+}
+
+.section-3__flex-header {
+    font-size: 27px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    color: rgb(175, 175, 175);
+    line-height: 0.926;
+    font-weight: 400;
+
+    &:first-child {
+        margin-top: 30px;
+        margin-bottom: 23px;
+    }
+
+    &:nth-child(2) {
+        margin-top: 30px;
+        margin-bottom: 23px;
+    }
+
+    &:nth-child(3) {
+        margin-top: 30px;
+        margin-bottom: 23px;
+    }
+}
+
+.section-3__flex-link {
+    margin: 0;
+
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+
+    text-decoration: none;
+
+    border-radius: 10%;
+
+    width: 85px;
+
+    font-size: 19px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    color: white;
+    line-height: 1;
+
+    background-color: #3cc395;
+
+    &:hover {
+        color: rgb(107, 231, 225);
+        text-shadow: black 0 0 7px;
+        transition: 0.5s;
+    }
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
