@@ -1,7 +1,259 @@
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section 4 */
 /* --------------------------------------------- */
+
+.section-4 {
+    padding-top: 237px;
+}
+
+.section-4__header-container {
+    background-color: #40c9b6;
+    min-width: 100%;
+    min-height: 67px;
+
+    position: absolute;
+    top: 754px;
+    left: 0;
+}
+
+.section-4__header {
+    margin: 0 auto;
+    width: 1024px;
+
+    h1 {
+        margin-top: 24px;
+        margin-left: 67px;
+        margin-bottom: 0;
+
+        text-transform: uppercase;
+
+        font-size: 31px;
+        font-family: "Bebas Neue", Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 0.806;
+        font-weight: 400;
+    }
+}
+
+.section-4__products-container {
+    width: 1024px;
+
+    margin-left: 71px;
+
+    padding-right: 164px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-4__products {
+    min-width: 259px;
+    min-height: 270px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 0px 7px 3px #e4e4e4;
+
+    &:first-child,
+    &:nth-child(2),
+    &:nth-child(3) {
+        margin-top: 47px;
+        margin-bottom: 53px;
+    }
+
+    &:nth-child(4),
+    &:nth-child(5),
+    &:nth-child(6) {
+        margin-bottom: 71px;
+    }
+
+    &:first-child {
+        .section-4__products-img {
+            display: block;
+
+            width: 189px;
+            min-height: 126px;
+
+            background-image: url("../img/shoes-products-red.png");
+            background-repeat: no-repeat;
+        }
+
+        .section-4__products-down-line {
+            position: relative;
+            bottom: -25.5px;
+        }
+    }
+
+    &:nth-child(2) {
+        .section-4__products-img {
+            display: block;
+
+            width: 116px;
+            min-height: 116px;
+
+            background-image: url("../img/t-shirt-products-dark-blue.png");
+            background-repeat: no-repeat;
+        }
+
+        .section-4__products-down-line {
+            position: relative;
+            bottom: -30.5px;
+        }
+    }
+
+    &:nth-child(3) {
+        .section-4__products-img {
+            display: block;
+
+            width: 105px;
+            min-height: 118px;
+
+            background-image: url("../img/t-shirt-products-grey.png");
+            background-repeat: no-repeat;
+        }
+
+        .section-4__products-down-line {
+            position: relative;
+            bottom: -29.5px;
+        }
+    }
+
+    &:nth-child(4) {
+        .section-4__products-img {
+            display: block;
+
+            width: 175px;
+            min-height: 131px;
+
+            background-image: url("../img/purse.png");
+            background-repeat: no-repeat;
+        }
+
+        .section-4__products-down-line {
+            position: relative;
+            bottom: -22.5px;
+        }
+    }
+
+    &:nth-child(5) {
+        .section-4__products-img {
+            display: block;
+
+            width: 140px;
+            min-height: 125px;
+
+            background-image: url("../img/bag.png");
+            background-repeat: no-repeat;
+        }
+
+        .section-4__products-down-line {
+            position: relative;
+            bottom: -25.5px;
+        }
+    }
+
+    &:nth-child(6) {
+        .section-4__products-img {
+            display: block;
+
+            width: 66px;
+            min-height: 119px;
+
+            background-image: url("../img/breeches-products.png");
+            background-repeat: no-repeat;
+        }
+
+        .section-4__products-down-line {
+            position: relative;
+            bottom: -28.5px;
+        }
+    }
+
+    &:hover {
+        box-shadow: 0px 0px 7px 3px rgb(107, 231, 225);
+        transition: 0.5s;
+
+        .section-4__products-down-line {
+            background-color: rgb(107, 231, 225);
+            transition: 0.5s;
+        }
+    }
+}
+
+.section-4__products-header {
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+    text-transform: uppercase;
+
+    font-size: 27px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    color: rgb(175, 175, 175);
+    line-height: 0.926;
+    font-weight: 400;
+}
+
+.section-4__products-link {
+    margin: 0;
+
+    padding-top: 10px;
+    padding-bottom: 9px;
+
+    border-radius: 10%;
+
+    width: 85px;
+
+    text-decoration: none;
+
+    text-align: center;
+    font-size: 19px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    color: white;
+    line-height: 1;
+    font-weight: 400;
+
+    background-color: #3cc395;
+
+    &:hover {
+        color: rgb(107, 231, 225);
+        text-shadow: black 0 0 7px;
+        transition: 0.5s;
+    }
+}
+
+.section-4__products-price {
+    margin-top: 4px;
+    margin-right: 13px;
+    margin-bottom: 0;
+
+    font-size: 27px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    color: rgb(175, 175, 175);
+    line-height: 0.926;
+}
+
+.section-4__products-link-price {
+    display: flex;
+    align-items: center;
+
+    margin-left: 25px;
+}
+
+.section-4__products-down-line {
+    min-width: 100%;
+    min-height: 5px;
+    background-color: #3cc395;
+
+    &:hover {
+        background-color: rgb(107, 231, 225);
+        transition: 0.5s;
+    }
+}
 
 /* --------------------------------------------- */
 /* --------------------------------------------- */

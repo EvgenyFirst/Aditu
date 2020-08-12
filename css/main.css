@@ -1,23 +1,4 @@
-@charset "UTF-8";
 /* ------------------------------------------------------------ */
-@font-face {
-  font-family: Lifehack;
-  /* Имя шрифта */
-  src: url(../fonts/);
-  /* Путь к файлу со шрифтом */
-}
-@font-face {
-  font-family: Gagalin;
-  /* Имя шрифта */
-  src: url(../fonts/);
-  /* Путь к файлу со шрифтом */
-}
-@font-face {
-  font-family: Ubuntu;
-  /* Имя шрифта */
-  src: url(../fonts/);
-  /* Путь к файлу со шрифтом */
-}
 /* ------------------------------------------------------------ */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
@@ -59,7 +40,7 @@ body {
 }
 
 .container {
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
   border: 1px solid black;
 }
@@ -68,7 +49,7 @@ body {
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section 1 */
 /* --------------------------------------------- */
 .section-1 {
   display: flex;
@@ -153,6 +134,7 @@ body {
   position: absolute;
   top: 74px;
   left: 0;
+  z-index: 1;
 }
 
 .section-1__block-2-links {
@@ -206,7 +188,7 @@ body {
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section 2 */
 /* --------------------------------------------- */
 .section-2 {
   margin-top: 45px;
@@ -217,9 +199,9 @@ body {
 .section-2__container {
   background-color: #3ec0b9;
   min-width: 100%;
-  min-height: 445px;
+  min-height: 448px;
   position: absolute;
-  top: 115px;
+  top: 113px;
   left: 0;
 }
 
@@ -321,7 +303,7 @@ body {
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section 3 */
 /* --------------------------------------------- */
 .section-3 {
   margin-top: 512px;
@@ -336,6 +318,7 @@ body {
   top: 561px;
   left: 0;
   box-shadow: 1px 1.732px 3px 0px black;
+  z-index: 1;
 }
 
 .section-3__container {
@@ -353,6 +336,7 @@ body {
 }
 
 .section-3__arrow-left {
+  display: block;
   width: 29px;
   min-height: 88px;
   position: absolute;
@@ -363,9 +347,13 @@ body {
 }
 .section-3__arrow-left:hover {
   cursor: pointer;
+  transition: 0.5s;
+  background-image: url("../img/arrow-left-hover.png");
+  background-repeat: no-repeat;
 }
 
 .section-3__arrow-right {
+  display: block;
   width: 31px;
   min-height: 88px;
   position: absolute;
@@ -376,6 +364,9 @@ body {
 }
 .section-3__arrow-right:hover {
   cursor: pointer;
+  transition: 0.5s;
+  background-image: url("../img/arrow-right-hover.png");
+  background-repeat: no-repeat;
 }
 
 .section-3__flex {
@@ -416,16 +407,16 @@ body {
   left: 52px;
 }
 .section-3__flex:nth-child(3) {
-  width: 337.5px;
+  width: 338.5px;
   padding-top: 25px;
   border-left: 0.5px solid black;
 }
 .section-3__flex:nth-child(3) span {
   margin-top: 7px;
   margin-left: 46px;
-  width: 66px;
-  min-height: 119px;
-  background-image: url("../img/breeches-products.png");
+  width: 71px;
+  min-height: 127px;
+  background-image: url("../img/breeches.png");
   background-repeat: no-repeat;
 }
 .section-3__flex:nth-child(3) div {
@@ -478,13 +469,200 @@ body {
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section 4 */
+/* --------------------------------------------- */
+.section-4 {
+  padding-top: 237px;
+}
+
+.section-4__header-container {
+  background-color: #40c9b6;
+  min-width: 100%;
+  min-height: 67px;
+  position: absolute;
+  top: 754px;
+  left: 0;
+}
+
+.section-4__header {
+  margin: 0 auto;
+  width: 1024px;
+}
+.section-4__header h1 {
+  margin-top: 24px;
+  margin-left: 67px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 31px;
+  font-family: "Bebas Neue", Arial, sans-serif;
+  color: white;
+  line-height: 0.806;
+  font-weight: 400;
+}
+
+.section-4__products-container {
+  width: 1024px;
+  margin-left: 71px;
+  padding-right: 164px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-4__products {
+  min-width: 259px;
+  min-height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 7px 3px #e4e4e4;
+}
+.section-4__products:first-child, .section-4__products:nth-child(2), .section-4__products:nth-child(3) {
+  margin-top: 47px;
+  margin-bottom: 53px;
+}
+.section-4__products:nth-child(4), .section-4__products:nth-child(5), .section-4__products:nth-child(6) {
+  margin-bottom: 71px;
+}
+.section-4__products:first-child .section-4__products-img {
+  display: block;
+  width: 189px;
+  min-height: 126px;
+  background-image: url("../img/shoes-products-red.png");
+  background-repeat: no-repeat;
+}
+.section-4__products:first-child .section-4__products-down-line {
+  position: relative;
+  bottom: -25.5px;
+}
+.section-4__products:nth-child(2) .section-4__products-img {
+  display: block;
+  width: 116px;
+  min-height: 116px;
+  background-image: url("../img/t-shirt-products-dark-blue.png");
+  background-repeat: no-repeat;
+}
+.section-4__products:nth-child(2) .section-4__products-down-line {
+  position: relative;
+  bottom: -30.5px;
+}
+.section-4__products:nth-child(3) .section-4__products-img {
+  display: block;
+  width: 105px;
+  min-height: 118px;
+  background-image: url("../img/t-shirt-products-grey.png");
+  background-repeat: no-repeat;
+}
+.section-4__products:nth-child(3) .section-4__products-down-line {
+  position: relative;
+  bottom: -29.5px;
+}
+.section-4__products:nth-child(4) .section-4__products-img {
+  display: block;
+  width: 175px;
+  min-height: 131px;
+  background-image: url("../img/purse.png");
+  background-repeat: no-repeat;
+}
+.section-4__products:nth-child(4) .section-4__products-down-line {
+  position: relative;
+  bottom: -22.5px;
+}
+.section-4__products:nth-child(5) .section-4__products-img {
+  display: block;
+  width: 140px;
+  min-height: 125px;
+  background-image: url("../img/bag.png");
+  background-repeat: no-repeat;
+}
+.section-4__products:nth-child(5) .section-4__products-down-line {
+  position: relative;
+  bottom: -25.5px;
+}
+.section-4__products:nth-child(6) .section-4__products-img {
+  display: block;
+  width: 66px;
+  min-height: 119px;
+  background-image: url("../img/breeches-products.png");
+  background-repeat: no-repeat;
+}
+.section-4__products:nth-child(6) .section-4__products-down-line {
+  position: relative;
+  bottom: -28.5px;
+}
+.section-4__products:hover {
+  box-shadow: 0px 0px 7px 3px #6be7e1;
+  transition: 0.5s;
+}
+.section-4__products:hover .section-4__products-down-line {
+  background-color: #6be7e1;
+  transition: 0.5s;
+}
+
+.section-4__products-header {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-family: "Bebas Neue", Arial, sans-serif;
+  color: #afafaf;
+  line-height: 0.926;
+  font-weight: 400;
+}
+
+.section-4__products-link {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  border-radius: 10%;
+  width: 85px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 19px;
+  font-family: "Bebas Neue", Arial, sans-serif;
+  color: white;
+  line-height: 1;
+  font-weight: 400;
+  background-color: #3cc395;
+}
+.section-4__products-link:hover {
+  color: #6be7e1;
+  text-shadow: black 0 0 7px;
+  transition: 0.5s;
+}
+
+.section-4__products-price {
+  margin-top: 4px;
+  margin-right: 13px;
+  margin-bottom: 0;
+  font-size: 27px;
+  font-family: "Bebas Neue", Arial, sans-serif;
+  color: #afafaf;
+  line-height: 0.926;
+}
+
+.section-4__products-link-price {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.section-4__products-down-line {
+  min-width: 100%;
+  min-height: 5px;
+  background-color: #3cc395;
+}
+.section-4__products-down-line:hover {
+  background-color: #6be7e1;
+  transition: 0.5s;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* --------------------------------------------- */
-/* Section */
+/* Section 5 */
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */

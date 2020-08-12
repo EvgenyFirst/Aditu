@@ -1,6 +1,6 @@
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section 3 */
 /* --------------------------------------------- */
 
 .section-3 {
@@ -18,6 +18,8 @@
     left: 0;
 
     box-shadow: 1px 1.732px 3px 0px rgb(0, 0, 0);
+
+    z-index: 1;
 }
 
 .section-3__container {
@@ -38,6 +40,7 @@
 }
 
 .section-3__arrow-left {
+    display: block;
     width: 29px;
     min-height: 88px;
 
@@ -50,10 +53,14 @@
 
     &:hover {
         cursor: pointer;
+        transition: 0.5s;
+        background-image: url("../img/arrow-left-hover.png");
+        background-repeat: no-repeat;
     }
 }
 
 .section-3__arrow-right {
+    display: block;
     width: 31px;
     min-height: 88px;
 
@@ -66,6 +73,9 @@
 
     &:hover {
         cursor: pointer;
+        transition: 0.5s;
+        background-image: url("../img/arrow-right-hover.png");
+        background-repeat: no-repeat;
     }
 }
 
@@ -120,7 +130,7 @@
     }
 
     &:nth-child(3) {
-        width: 337.5px;
+        width: 338.5px;
 
         padding-top: 25px;
 
@@ -130,10 +140,10 @@
             margin-top: 7px;
             margin-left: 46px;
 
-            width: 66px;
-            min-height: 119px;
+            width: 71px;
+            min-height: 127px;
 
-            background-image: url("../img/breeches-products.png");
+            background-image: url("../img/breeches.png");
             background-repeat: no-repeat;
         }
 
