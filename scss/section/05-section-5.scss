@@ -3,5 +3,78 @@
 /* Section 5 */
 /* --------------------------------------------- */
 
+.section-5 {
+    width: 1024px;
+    margin: 0 auto;
+
+
+}
+
+.section-5-container-main {
+    background-color: #3cc3b5;
+
+    min-width: 100%;
+    min-height: 151px;
+
+    position: absolute;
+    left: 0;
+}
+
+.section-5-container {
+    width: 1024px;
+    min-height: 381px;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-5-categories {
+    list-style: none;
+
+    margin-top: 0;
+
+    padding-left: 0;
+}
+
+.section-5-header {
+    text-transform: uppercase;
+
+    margin-top: 42px;
+
+    font-size: 27px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.926;
+    font-weight: 400;
+}
+
+.section-5-link {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.867;
+    font-weight: 400;
+
+    &:hover {
+        color: rgb(107, 231, 225);
+        text-shadow: black 0 0 7px;
+        transition: 0.5s;
+    }
+}
+
+.section-5-bg-add {
+    background-color: #2da89b;
+
+    min-width: 100%;
+    min-height: 46px;
+
+    position: absolute;
+    left: 0;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
