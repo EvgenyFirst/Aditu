@@ -16,6 +16,7 @@ html {
 }
 
 body {
+  position: static;
   margin-top: -14px;
   margin-left: 0;
   margin-right: 0;
@@ -26,12 +27,7 @@ body {
   line-height: 13px;
   font-weight: 400;
   /*
-      background-image: url("../img/bg-sites/nerds-index.jpg");
-      background-image: url("../img/bg-sites/nerds-index-width-slide-2.png");
-      background-image: url("../img/bg-sites/nerds-index-width-slide-3.png");
-      background-image: url("../img/bg-sites/nerds-catalog.jpg");
-      background-image: url("../img/bg-sites/nerds-index-subs.png");
-      background-image: url("../img/bg-sites/nerds-catalog-subs.png");
+      background-image: url("../img/bg-sites/img.jpg");
 
       font-family: 'Bebas Neue', cursive;
       font-family: 'Lobster', cursive;
@@ -41,8 +37,10 @@ body {
 
 .container {
   width: 1280px;
-  position: absolute;
   min-width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
   margin: 0 auto;
 }
 
@@ -195,7 +193,7 @@ body {
 .section-2 {
   margin-top: 29px;
   background-color: #3ec0b9;
-  position: inherit;
+  position: relative;
   width: 1024px;
   min-width: 100%;
   min-height: 448px;
@@ -205,7 +203,6 @@ body {
   background-color: #3ec0b9;
   min-width: 100%;
   min-height: 448px;
-  margin-left: 0 auto;
 }
 
 .section-2__container-slider {
@@ -309,10 +306,10 @@ body {
 /* Section 3 */
 /* --------------------------------------------- */
 .section-3 {
-  margin-top: 512px;
-  box-shadow: 1px 1.732px 3px 0px black;
   width: 1024px;
-  margin-left: 0 auto;
+  margin-top: 512px;
+  margin-bottom: -512px;
+  box-shadow: 1px 1.732px 3px 0px black;
 }
 
 .section-3__container-main {
@@ -476,7 +473,7 @@ body {
 .section-4 {
   width: 1024px;
   margin: 0 auto;
-  padding-top: 237px;
+  padding-top: 259px;
 }
 
 .section-4__header-container {

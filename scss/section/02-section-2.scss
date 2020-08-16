@@ -5,8 +5,11 @@
 
 .section-2 {
     margin-top: 29px;
+
     background-color: #3ec0b9;
-    position: inherit;
+
+    position: relative;
+
     width: 1024px;
     min-width: 100%;
     min-height: 448px;
@@ -14,10 +17,9 @@
 
 .section-2__container {
     background-color: #3ec0b9;
+    
     min-width: 100%;
     min-height: 448px;
-
-    margin-left: 0 auto;
 }
 
 .section-2__container-slider {

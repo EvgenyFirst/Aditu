@@ -5,9 +5,8 @@
 
 .section-5 {
     width: 1024px;
+    
     margin: 0 auto;
-
-
 }
 
 .section-5-container-main {
@@ -75,6 +74,11 @@
     position: absolute;
     left: 0;
 }
+
+@media screen and (min-height: 561px) {
+  
+
+  }
 
 /* --------------------------------------------- */
 /* --------------------------------------------- */
