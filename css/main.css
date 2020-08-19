@@ -37,6 +37,7 @@ body {
 
 .container {
   width: 1280px;
+  max-width: 1280vw;
   min-width: 100%;
   position: absolute;
   top: 0;
@@ -336,7 +337,8 @@ body {
   display: flex;
 }
 
-.section-3__arrow-left {
+.section-3__arrow-left,
+.section-3__arrow-left-closer {
   display: block;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -344,15 +346,19 @@ body {
   min-height: 88px;
   background-image: url("../img/arrow-left.png");
   background-repeat: no-repeat;
+  z-index: 1;
 }
-.section-3__arrow-left:hover, .section-3__arrow-left:focus {
+.section-3__arrow-left:hover, .section-3__arrow-left:focus,
+.section-3__arrow-left-closer:hover,
+.section-3__arrow-left-closer:focus {
   cursor: pointer;
   transition: 0.5s;
   background-image: url("../img/arrow-left-hover.png");
   background-repeat: no-repeat;
 }
 
-.section-3__arrow-right {
+.section-3__arrow-right,
+.section-3__arrow-right-closer {
   display: block;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -360,8 +366,11 @@ body {
   min-height: 88px;
   background-image: url("../img/arrow-right.png");
   background-repeat: no-repeat;
+  z-index: 1;
 }
-.section-3__arrow-right:hover, .section-3__arrow-right:focus {
+.section-3__arrow-right:hover, .section-3__arrow-right:focus,
+.section-3__arrow-right-closer:hover,
+.section-3__arrow-right-closer:focus {
   cursor: pointer;
   transition: 0.5s;
   background-image: url("../img/arrow-right-hover.png");
@@ -464,8 +473,58 @@ body {
   transition: 0.5s;
 }
 
+.fix {
+  width: 958px;
+}
+
+.fix-1 {
+  position: relative;
+  left: -2px;
+  padding-right: 31px;
+}
+
+.fix-2 {
+  position: relative;
+  left: -2px;
+  min-width: 321px;
+}
+
+.fix-3 {
+  position: relative;
+  left: -2px;
+  min-width: 318px;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
+.section-3__container-fix {
+  height: 191px;
+}
+
+.flex-slider-two {
+  position: relative;
+  top: -190px;
+}
+
+.hidden,
+.hidden-closer {
+  display: none;
+}
+
+.section-3__flex-new-color-head {
+  color: #a43820;
+}
+
+.section-3__flex-new-color-link {
+  color: #a43820;
+  line-height: 1;
+  background-color: #38c4b3;
+}
+.section-3__flex-new-color-link:hover {
+  color: white;
+  text-shadow: brown 0 0 7px;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 /* Section 4 */

@@ -41,7 +41,8 @@
     display: flex;
 }
 
-.section-3__arrow-left {
+.section-3__arrow-left,
+.section-3__arrow-left-closer {
     display: block;
 
     margin-top: 50px;
@@ -53,6 +54,8 @@
     background-image: url("../img/arrow-left.png");
     background-repeat: no-repeat;
 
+    z-index: 1;
+
     &:hover,
     &:focus {
         cursor: pointer;
@@ -62,7 +65,8 @@
     }
 }
 
-.section-3__arrow-right {
+.section-3__arrow-right,
+.section-3__arrow-right-closer {
     display: block;
 
     margin-top: 50px;
@@ -73,6 +77,8 @@
 
     background-image: url("../img/arrow-right.png");
     background-repeat: no-repeat;
+
+    z-index: 1;
 
     &:hover,
     &:focus {
@@ -209,5 +215,57 @@
     }
 }
 
+.fix {
+    width: 958px;
+}
+
+.fix-1 {
+    position: relative;
+    left: -2px;
+    padding-right: 31px;
+}
+
+.fix-2 {
+    position: relative;
+    left: -2px;
+    min-width: 321px;
+}
+
+.fix-3 {
+    position: relative;
+    left: -2px;
+    min-width: 318px;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
+
+.section-3__container-fix {
+    height: 191px;
+}
+
+.flex-slider-two {
+    position: relative;
+    top: -190px;
+}
+
+.hidden,
+.hidden-closer {
+    display: none;
+}
+
+.section-3__flex-new-color-head {
+    color: #a43820;
+}
+
+.section-3__flex-new-color-link {
+    color: #a43820;
+    line-height: 1;
+
+    background-color: #38c4b3;
+
+    &:hover {
+        color: white;
+        text-shadow: brown 0 0 7px;
+    }
+}
