@@ -304,18 +304,27 @@ body {
 /* --------------------------------------------- */
 .section-2__slide-2 {
   background-color: brown;
+  margin-top: -447px;
 }
 
 .section-2__slide-3 {
   background-color: burlywood;
+  margin-top: -448px;
 }
 
 .section-2__slide-4 {
   background-color: mediumslateblue;
+  margin-top: -449px;
 }
 
 .section-2__slide-5 {
   background-color: indianred;
+  margin-top: -448px;
+}
+
+.section-2__slide-top {
+  z-index: 3;
+  position: relative;
 }
 
 /* --------------------------------------------- */
