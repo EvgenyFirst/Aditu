@@ -106,6 +106,9 @@
 
     padding-left: 0;
 
+    position: relative;
+    z-index: 2;
+
     li {
         padding-top: 59px;
         padding-right: 10px;
@@ -156,6 +159,6 @@
     margin-top: -448px;
 }
 .section-2__slide-top {
-    z-index: 3;
+    z-index: 1;
     position: relative;
 }
