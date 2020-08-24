@@ -9,7 +9,7 @@
     margin-top: 512px;
     margin-bottom: -512px;
 
-    box-shadow: 1px 1.732px 3px 0px black;
+    box-shadow: 1px 1.732px 3px 0px $black-color;
 }
 
 .section-3__container-main {
@@ -21,7 +21,7 @@
     top: 561px;
     left: 0;
 
-    box-shadow: 1px 1.732px 3px 0px rgb(0, 0, 0);
+    box-shadow: 1px 1.732px 3px 0px $white-color;
 
     z-index: 1;
 }
@@ -97,7 +97,7 @@
 
         padding-top: 23px;
 
-        border-right: 0.5px solid black;
+        border-right: 0.5px solid $black-color;
 
         span {
             width: 217px;
@@ -118,8 +118,8 @@
 
         padding-top: 25px;
 
-        border-left: 0.5px solid black;
-        border-right: 0.5px solid black;
+        border-left: 0.5px solid $black-color;
+        border-right: 0.5px solid $black-color;
 
         span {
             margin-top: 2px;
@@ -144,7 +144,7 @@
 
         padding-top: 25px;
 
-        border-left: 0.5px solid black;
+        border-left: 0.5px solid $black-color;
 
         span {
             margin-top: 7px;
@@ -167,7 +167,7 @@
 .section-3__flex-header {
     font-size: 27px;
     font-family: "Bebas Neue", Arial, sans-serif;
-    color: rgb(175, 175, 175);
+    color: $lite-grey-color-three;
     line-height: 0.926;
     font-weight: 400;
 
@@ -203,14 +203,13 @@
 
     font-size: 19px;
     font-family: "Bebas Neue", Arial, sans-serif;
-    color: white;
+    color: $white-color;
     line-height: 1;
 
-    background-color: #3cc395;
+    background-color: $lite-turquoise-color-six;
 
     &:hover {
-        color: rgb(107, 231, 225);
-        text-shadow: black 0 0 7px;
+        color: $black-color;
         transition: 0.5s;
     }
 }
@@ -255,17 +254,16 @@
 }
 
 .section-3__flex-new-color-head {
-    color: #a43820;
+    color: $lite-brown-color;
 }
 
 .section-3__flex-new-color-link {
-    color: #a43820;
+    color: $lite-brown-color;
     line-height: 1;
 
-    background-color: #38c4b3;
+    background-color: $lite-turquoise-color-five;
 
     &:hover {
-        color: white;
-        text-shadow: brown 0 0 7px;
+        color: $black-color;
     }
 }

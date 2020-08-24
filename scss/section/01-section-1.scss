@@ -6,7 +6,7 @@
 .section-1 {
     display: flex;
     flex-direction: column;
-    
+
     width: 1024px;
 
     margin: 0 auto;
@@ -27,7 +27,7 @@
 
     font-size: 49px;
     font-family: "Lobster", Arial, sans-serif;
-    color: rgb( 60, 195, 181 );
+    color: rgb(60, 195, 181);
     line-height: 0.388;
 
     text-decoration: none;
@@ -44,7 +44,7 @@
     width: 446px;
     min-height: 33px;
 
-    border: 1px solid #e1e1e1;
+    border: 1px solid $lite-grey-color-one;
 }
 
 .section-1__block-1-form-img {
@@ -91,7 +91,7 @@
 
     font-size: 33px;
     font-family: "Bebas Neue", Arial, sans-serif;
-    color: rgb( 161, 161, 161 );
+    color: $lite-grey-color-two;
     line-height: 0.576;
 }
 
@@ -99,8 +99,8 @@
     min-width: 100%;
     min-height: 37px;
 
-    background-color: #4ccfc1;
-    box-shadow: 0.5px 0.866px 3px 0px rgb( 0, 0, 0 );
+    background-color: $lite-turquoise-color-two;
+    box-shadow: 0.5px 0.866px 3px 0px $black-color;
 
     position: absolute;
     top: 74px;
@@ -114,8 +114,8 @@
 
     min-height: 39px;
 
-    background-color: #4ccfc1;
-    
+    background-color: $lite-turquoise-color-two;
+
     width: 1024px;
 
     margin: 0 auto;
@@ -132,7 +132,7 @@
 .section-1__block-2-link {
     display: flex;
     align-items: center;
-    
+
     &::after {
         content: "|";
 
@@ -151,16 +151,15 @@
 
     font-size: 21px;
     font-family: "Bebas Neue", Arial, sans-serif;
-    color: rgb( 255, 255, 255 );
+    color: $white-color;
     line-height: 0.905;
 
     p {
         margin: 0;
-        
+
         &:hover {
-            color: rgb(107, 231, 225);
+            color: $black-color;
             cursor: pointer;
-            text-shadow: black 0 0 7px;
             transition: 0.5s;
         }
     }

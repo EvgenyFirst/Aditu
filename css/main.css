@@ -132,7 +132,7 @@ body {
   min-width: 100%;
   min-height: 37px;
   background-color: #4ccfc1;
-  box-shadow: 0.5px 0.866px 3px 0px black;
+  box-shadow: 0.5px 0.866px 3px 0px #000000;
   position: absolute;
   top: 74px;
   left: 0;
@@ -172,16 +172,15 @@ body {
   text-transform: uppercase;
   font-size: 21px;
   font-family: "Bebas Neue", Arial, sans-serif;
-  color: white;
+  color: #ffffff;
   line-height: 0.905;
 }
 .section-1__block-2-link-add p {
   margin: 0;
 }
 .section-1__block-2-link-add p:hover {
-  color: #6be7e1;
+  color: #000000;
   cursor: pointer;
-  text-shadow: black 0 0 7px;
   transition: 0.5s;
 }
 
@@ -234,7 +233,7 @@ body {
   margin-bottom: 23px;
   font-size: 61px;
   font-family: "Bebas Neue", Arial, sans-serif;
-  color: white;
+  color: #ffffff;
   line-height: 0.885;
   font-weight: 400;
 }
@@ -244,7 +243,7 @@ body {
   margin-bottom: 36px;
   font-size: 17px;
   font-family: "Open Sans", Arial, sans-serif;
-  color: white;
+  color: #ffffff;
   line-height: 1.647;
 }
 
@@ -253,17 +252,16 @@ body {
   padding-left: 25px;
   padding-right: 25px;
   text-decoration: none;
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   border-radius: 10%;
   width: 85px;
   font-size: 27px;
   font-family: "Bebas Neue", Arial, sans-serif;
-  color: white;
+  color: #ffffff;
   line-height: 0.704;
 }
 .section-2__link:hover {
-  color: #6be7e1;
-  text-shadow: black 0 0 7px;
+  color: #000000;
   transition: 0.5s;
 }
 
@@ -286,7 +284,7 @@ body {
 }
 
 .section-2__option {
-  color: white;
+  color: #ffffff;
   font-size: 34px;
   font-weight: bold;
   margin: 0;
@@ -305,22 +303,22 @@ body {
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 .section-2__slide-2 {
-  background-color: brown;
+  background-color: #692a2a;
   margin-top: -447px;
 }
 
 .section-2__slide-3 {
-  background-color: burlywood;
+  background-color: #deb887;
   margin-top: -448px;
 }
 
 .section-2__slide-4 {
-  background-color: mediumslateblue;
+  background-color: #7b68ee;
   margin-top: -449px;
 }
 
 .section-2__slide-5 {
-  background-color: indianred;
+  background-color: #cd5c5c;
   margin-top: -448px;
 }
 
@@ -337,7 +335,7 @@ body {
   width: 1024px;
   margin-top: 512px;
   margin-bottom: -512px;
-  box-shadow: 1px 1.732px 3px 0px black;
+  box-shadow: 1px 1.732px 3px 0px #000000;
 }
 
 .section-3__container-main {
@@ -347,7 +345,7 @@ body {
   position: absolute;
   top: 561px;
   left: 0;
-  box-shadow: 1px 1.732px 3px 0px black;
+  box-shadow: 1px 1.732px 3px 0px #ffffff;
   z-index: 1;
 }
 
@@ -410,7 +408,7 @@ body {
 .section-3__flex:nth-child(2) {
   width: 344.5px;
   padding-top: 23px;
-  border-right: 0.5px solid black;
+  border-right: 0.5px solid #000000;
 }
 .section-3__flex:nth-child(2) span {
   width: 217px;
@@ -425,8 +423,8 @@ body {
 .section-3__flex:nth-child(3) {
   width: 341px;
   padding-top: 25px;
-  border-left: 0.5px solid black;
-  border-right: 0.5px solid black;
+  border-left: 0.5px solid #000000;
+  border-right: 0.5px solid #000000;
 }
 .section-3__flex:nth-child(3) span {
   margin-top: 2px;
@@ -444,7 +442,7 @@ body {
 .section-3__flex:nth-child(4) {
   width: 338.5px;
   padding-top: 25px;
-  border-left: 0.5px solid black;
+  border-left: 0.5px solid #000000;
 }
 .section-3__flex:nth-child(4) span {
   margin-top: 7px;
@@ -490,13 +488,12 @@ body {
   width: 85px;
   font-size: 19px;
   font-family: "Bebas Neue", Arial, sans-serif;
-  color: white;
+  color: #ffffff;
   line-height: 1;
   background-color: #3cc395;
 }
 .section-3__flex-link:hover {
-  color: #6be7e1;
-  text-shadow: black 0 0 7px;
+  color: #000000;
   transition: 0.5s;
 }
 
@@ -548,8 +545,7 @@ body {
   background-color: #38c4b3;
 }
 .section-3__flex-new-color-link:hover {
-  color: white;
-  text-shadow: brown 0 0 7px;
+  color: #000000;
 }
 
 /* --------------------------------------------- */
@@ -582,7 +578,7 @@ body {
   text-transform: uppercase;
   font-size: 31px;
   font-family: "Bebas Neue", Arial, sans-serif;
-  color: white;
+  color: #ffffff;
   line-height: 0.806;
   font-weight: 400;
 }
@@ -708,14 +704,13 @@ body {
   text-align: center;
   font-size: 19px;
   font-family: "Bebas Neue", Arial, sans-serif;
-  color: white;
+  color: #ffffff;
   line-height: 1;
   font-weight: 400;
   background-color: #3cc395;
 }
 .section-4__products-link:hover {
-  color: #6be7e1;
-  text-shadow: black 0 0 7px;
+  color: #000000;
   transition: 0.5s;
 }
 
@@ -741,7 +736,7 @@ body {
   background-color: #3cc395;
 }
 .section-4__products-down-line:hover {
-  background-color: #6be7e1;
+  background-color: #6be7ff;
   transition: 0.5s;
 }
 
@@ -784,7 +779,7 @@ body {
   margin-top: 42px;
   font-size: 27px;
   font-family: "Bebas Neue", Arial, sans-serif;
-  color: white;
+  color: #ffffff;
   line-height: 0.926;
   font-weight: 400;
 }
@@ -793,13 +788,12 @@ body {
   text-decoration: none;
   font-size: 15px;
   font-family: "Open Sans", Arial, sans-serif;
-  color: white;
+  color: #ffffff;
   line-height: 1.867;
   font-weight: 400;
 }
 .section-5-link:hover {
-  color: #6be7e1;
-  text-shadow: black 0 0 7px;
+  color: #000000;
   transition: 0.5s;
 }
 
@@ -811,23 +805,5 @@ body {
   left: 0;
 }
 
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* Section */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* Section */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* --------------------------------------------- */
-/* Section */
-/* --------------------------------------------- */
 /* --------------------------------------------- */
 /* --------------------------------------------- */

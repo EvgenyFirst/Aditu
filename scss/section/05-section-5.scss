@@ -10,7 +10,7 @@
 }
 
 .section-5-container-main {
-    background-color: #3cc3b5;
+    background-color: $lite-turquoise-color-one;
 
     min-width: 100%;
     min-height: 151px;
@@ -45,7 +45,7 @@
 
     font-size: 27px;
     font-family: "Bebas Neue", Arial, sans-serif;
-    color: rgb(255, 255, 255);
+    color: $white-color;
     line-height: 0.926;
     font-weight: 400;
 }
@@ -54,19 +54,18 @@
     text-decoration: none;
     font-size: 15px;
     font-family: "Open Sans", Arial, sans-serif;
-    color: rgb(255, 255, 255);
+    color: $white-color;
     line-height: 1.867;
     font-weight: 400;
 
     &:hover {
-        color: rgb(107, 231, 225);
-        text-shadow: black 0 0 7px;
+        color: $black-color;
         transition: 0.5s;
     }
 }
 
 .section-5-bg-add {
-    background-color: #2da89b;
+    background-color: $lite-turquoise-color-ten;
 
     min-width: 100%;
     min-height: 46px;
